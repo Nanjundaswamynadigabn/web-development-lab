@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=prompt("enter the first number")
+        var b=prompt("enter the second number")
+        var op=prompt("enter the operation ")
+        switch(op)
+        {
+            case '1':var c=parseInt(a) + parseInt(b)
+            break;
+            case '2':var c=parseInt(a) - parseInt(b)
+            break;
+            case '3':var c=parseInt(a) * parseInt(b)
+            break;
+            case '4':var c=parseInt(a) / parseInt(b)
+            break;
+        }
+        alert("the result is"+c)
+    </script>
+</body>
+</html>
